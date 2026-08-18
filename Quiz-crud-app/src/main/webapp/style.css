@@ -1,0 +1,132 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #7f8c8d;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+th {
+    background: #2c3e50;
+    color: #fff;
+}
+
+tr:hover {
+    background: #f9f9f9;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 420px;
+    gap: 6px;
+}
+
+label {
+    font-weight: 600;
+    margin-top: 10px;
+    color: #333;
+}
+
+input, select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 12px 8px 0 0;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+}
+
+.btn-add {
+    background: #27ae60;
+}
+
+.btn-edit {
+    background: #2980b9;
+}
+
+.btn-delete {
+    background: #c0392b;
+}
+
+.btn-cancel {
+    background: #7f8c8d;
+}
+
+.question {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    padding: 14px 16px;
+    margin-top: 16px;
+}
+
+.question-text {
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.option {
+    display: block;
+    font-weight: normal;
+    margin: 6px 0;
+    color: #333;
+    cursor: pointer;
+}
+
+.option input {
+    margin-right: 8px;
+    width: auto;
+}
+
+.result-text {
+    font-size: 18px;
+}
+
+.score-text {
+    font-size: 24px;
+    color: #27ae60;
+}
